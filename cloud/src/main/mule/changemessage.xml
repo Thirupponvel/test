@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="cloudFlow" doc:id="55f40319-c3c0-498e-b72b-059f777b2069" >
 		<http:listener doc:name="Listener" doc:id="5658c4f8-3f17-4542-86de-29c4a6476c53" config-ref="HTTP_Listener_config" path="/api"/>
-		<set-payload value='#["hiii...."]' doc:name="Set Payload" doc:id="b874ff29-3926-4f0f-93d3-d2ddd3d72bae" />
+		<set-payload value='#["hello...."]' doc:name="Set Payload" doc:id="b874ff29-3926-4f0f-93d3-d2ddd3d72bae" />
 	</flow>
 </mule>
